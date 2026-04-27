@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WishListApp+RoomDB</string>
+    <string name="add_wish">Add Wish</string>
+    <string name="update_wish">Update Wish</string>
+    <string name="wish_title">Title</string>
+    <string name="wish_desc">Description</string>
+</resources>
