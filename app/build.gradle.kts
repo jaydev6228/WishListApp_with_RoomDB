@@ -6,11 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.wishlistapproomdb"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.wishlistapproomdb"
@@ -47,7 +43,7 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     val nav_version = "2.7.5"
     val compose_version = "1.6.0-alpha08"
-    val room = "2.6.0"
+    val room = "2.8.4"
 
     // Room
     implementation("androidx.room:room-runtime:$room")
